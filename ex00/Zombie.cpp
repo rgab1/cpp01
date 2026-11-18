@@ -6,7 +6,7 @@
 /*   By: grivault <grivault@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/18 16:32:22 by grivault          #+#    #+#             */
-/*   Updated: 2026/11/18 17:15:46 by grivault         ###   ########.fr       */
+/*   Updated: 2026/11/19 00:54:26 by grivault         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 Zombie::Zombie()
 {
 }
-~Zombie::Zombie()
+Zombie::~Zombie()
 {
 	std::cout << this->_name << " has been destroyed." << std::endl;
 }
