@@ -1,0 +1,6 @@
+*.d
+*.o
+*.swo
+*.swp
+executable
+
